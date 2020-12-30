@@ -6,7 +6,7 @@ module.exports.run = async (client, message, args) => {
     .addField("Naam:", `<@${client.user.id}>`, true)
     .addField("Versie:", "1.0.0", true)
     .addField("Aangemaakt op:", "Vrijdag 6 November 2020", false)
-    .setFooter("ZuiderdamRP", client.user.displayAvatarURL())
+    .setFooter("NewWorldRP", client.user.displayAvatarURL())
     .setTimestamp();
 
     return message.channel.send(botEmbed);

@@ -34,7 +34,7 @@ module.exports.run = async (client, message, args) => {
     .addField("Getempmute door:", message.author)
     .addField("Duur:", `${ms(ms(muteTime))}`)
     .setColor("#004b96")
-    .setFooter("ZuiderdamRP", client.user.displayAvatarURL())
+    .setFooter("NewWorldRP", client.user.displayAvatarURL())
     .setTimestamp();
 
     message.delete();
